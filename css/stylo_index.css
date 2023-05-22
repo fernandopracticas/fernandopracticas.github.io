@@ -1,0 +1,215 @@
+@charset "utf-8";
+header, nav, main, footer {
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    margin: auto;
+    background-color: #7CF6FD;
+    width: auto;
+    height: auto;
+}
+header {
+    width: auto;
+    background-color: #7CF6FD;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    height: 150px;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    padding-top: 15px;
+}
+main {
+    background-color: #317AC7;
+    margin: auto;
+    padding: 30px;
+    height: auto;
+}
+
+footer {
+    background-color: #707D9D;
+    width: auto;
+    padding: 10px;
+    height: 80px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+section {
+    padding-top: 19px;
+    padding-right: 19px;
+    padding-left: 19px;
+    padding-bottom: 19px;
+    background-color: #FCF9BF;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: auto;
+}
+
+
+nav {
+    background-color: #707D9D;
+    width: auto;
+    height: 63px;
+}
+.centrar {
+    display: block;
+    height: 221px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.video_1 {
+    border: 10px solid #317AC7;
+    border-radius: 15px;
+}
+#img1 {
+    width: 50%;
+    height: auto;
+}
+.laimg {
+    width: 25%;
+    height: auto;
+    float: right;
+    padding-left: 10px;
+}
+#img0 {
+    width: 300px;
+    height: auto;
+}
+.img_1 {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid #317AC7;
+    border-radius: 41px;
+    display: block;
+}
+#img_3 {
+    width: 10%;
+    height: auto;
+    float: left;
+    padding-right: 15px;
+}
+main section p {
+    text-align: justify;
+}
+
+#img_4 {
+    width: 10%;
+    float: right;
+    padding-left: 15px;
+}
+#fondo_1 {
+    background-image: url(../imagenes/samoed-sobaka-boke.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 113% 725px;
+    background-position: 0px 0px;
+}
+.p1 {
+    width: 423px;
+    text-align: left;
+    color: #FCF9BF;
+}
+.img-filter {
+    width: 243px;
+    padding: 10px;
+    height: 200px;
+}
+.scalegray {
+    filter: grayscale(100);
+}
+.sepia {
+    filter: sepia(80);
+}
+.opacity {
+    filter: opacity(50%);
+}
+.brillo {
+    filter: brightness(250%);
+}
+.contraste {
+    filter: contrast(180%);
+}
+.negativo {
+    filter: invert(100%);
+}
+.blur {
+    filter: blur(3px);
+}
+.sombras {
+    filter: drop-shadow(5px 5px 10px gray);
+}
+.tabla2 {
+    border-style: groove;
+}
+.tabla2 tr {
+    background-color: #317AC7;
+    color: #FFFFFF;
+}
+.td-a {
+    background-color: #707D9D;
+}
+.tabla3 {
+}
+.td-b {
+    background-color: #7CF6FD;
+    color: #FFFFFF;
+}
+body nav div{
+    justify-content: center;
+    align-items: center;
+    display: inline;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 236px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+button{
+    margin-top: 16px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 0;
+    position: relative;
+    padding-top: 6px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+	
+}
+section p img {
+    width: 144px;
+    height: 42%;
+    float: left;
+    padding-right: 5px;
+}
+main section p {
+    font-size: 20px;
+    height: auto;
+}
+main section  {
+    height: auto;
+
+}
+.titulo {
+    color: #FFFFFF;
+}
+.filtros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float: right;
+}
+.index {
+    float: left;
+}
